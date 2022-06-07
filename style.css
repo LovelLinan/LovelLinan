@@ -199,7 +199,8 @@ section .title::after{
   transform: rotateY(0deg) translateZ(25px);
 }
 .prog a:after{
-  color: red;
+  color: white;
+  background: #000;
   font-weight: bold;
   transform: rotateX(90deg) translateZ(25px);
 }
