@@ -163,6 +163,23 @@ section .title::after{
 }
 
 /*button*/
+
+.glow {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px red, 0 0 30px red, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 60px #e60073, 0 0 10px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 10px red, 0 0 10px red, 0 0 40px red, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 10px #ff4da6;
+  }
+}
 .prog{
   position: relative;
   display: inline-flex;
