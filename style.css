@@ -189,17 +189,17 @@ section .title::after{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid black;
+  border: 5px solid red;
   box-sizing: border-box;
   border-radius: 5px;
 }
 .prog a:before{
-  color: #fff;
+  color: red;
   background: #000;
   transform: rotateY(0deg) translateZ(25px);
 }
 .prog a:after{
-  color: #000;
+  color: red;
   font-weight: bold;
   transform: rotateX(90deg) translateZ(25px);
 }
