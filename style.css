@@ -106,7 +106,9 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: red;
+    color: white;
+     text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 .navbar .menu li{
     list-style: none;
