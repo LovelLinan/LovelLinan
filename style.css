@@ -436,30 +436,36 @@ section .title::after{
     top: 0;
     background: red;
 }
-.skills-content .right .html::before{
-    width: 90%;
+.skills-content .right .10p::before{
+    width: 10%;
 }
-.skills-content .right .css::before{
-    width: 80%;
+.skills-content .right .20p::before{
+    width: 20%;
 }
-.skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 60%;
-}
-
-.skills-content .right .python::before{
+.skills-content .right .30p::before{
     width: 30%;
 }
-.skills-content .right .java::before{
+.skills-content .right .40p::before{
     width: 40%;
 }
-.skills-content .right .cplus::before{
+.skills-content .right .50p::before{
+    width: 50%;
+}
+
+.skills-content .right .60p::before{
+    width: 60%;
+}
+.skills-content .right .70p::before{
     width: 70%;
+}
+.skills-content .right .80p::before{
+    width: 80%;
+}
+.skills-content .right .90p::before{
+    width: 90%;
+}
+.skills-content .right .100p::before{
+    width: 100%;
 }
 /* teams section styling */
 .teams .title::after{
