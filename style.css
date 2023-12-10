@@ -270,7 +270,7 @@ section .title::after{
 }
 /*.home .home-content a{
     display: inline-block;
-    background: #66FF99/*green*/;
+    background:/* #66FF99 green*/;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
