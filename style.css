@@ -222,7 +222,7 @@ section .title::after{
   transform: rotateY(0deg) translateZ(25px);
 }
 .prog a:after{
-  color: white;
+  color: orange;
   background: #000;
   font-weight: bold;
   transform: rotateX(90deg) translateZ(25px);
@@ -241,7 +241,7 @@ section .title::after{
     background: url("images/banner.jpg") no-repeat center;
     width: 100%;
     height: 100vh;
-    color: white;
+    color: orange;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -346,7 +346,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    color: white;
+    color: orange;
     content: "what i provide";
 }
 .services .serv-content .card{
