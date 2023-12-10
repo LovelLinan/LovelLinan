@@ -355,7 +355,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{/*1rst 3 square*/
-    background: green;
+    background: #222;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
