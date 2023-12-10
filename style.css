@@ -102,11 +102,11 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{/*lio*/
-    color: orange;
+    color: white;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: white;
+    color: pink;
      text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
@@ -138,7 +138,7 @@ section .title::after{
 }
 
 .menu-btn:hover {
-  color: orange;
+  color: white;
 }
 .scroll-up-btn{
     position: fixed;
@@ -222,7 +222,7 @@ section .title::after{
   transform: rotateY(0deg) translateZ(25px);
 }
 .prog a:after{
-  color: orange;
+  color: white;
   background: #000;
   font-weight: bold;
   transform: rotateX(90deg) translateZ(25px);
@@ -241,7 +241,7 @@ section .title::after{
     background: url("images/banner.jpg") no-repeat center;
     width: 100%;
     height: 100vh;
-    color: orange;
+    color: white;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -346,7 +346,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    color: orange;
+    color: white;
     content: "what i provide";
 }
 .services .serv-content .card{
