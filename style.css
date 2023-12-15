@@ -370,11 +370,11 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    /*color: red; remove hover*/
+    color: red; 
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-   /*color: red; remove hover*/
+   color: white;
 }
 .services .serv-content .card .text{
     font-size: 25px;
