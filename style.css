@@ -494,7 +494,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-       height: 10vh;/*for height*/
+       height: 20vh;/*for height*/
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
