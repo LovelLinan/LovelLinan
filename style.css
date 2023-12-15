@@ -336,8 +336,10 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
-    background: #111;
+   /* color:#fff;*/
+    color: black;
+   /* background: #111;*/
+    background: white;
 }
 .services .title::before,
 .teams .title::before{
@@ -346,7 +348,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-   /* color: white; */ color: black;
+    color: white ;
     content: "what i provide";
 }
 .services .serv-content .card{
