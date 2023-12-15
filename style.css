@@ -485,7 +485,7 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 
-    height: 35vh;/* for height*/
+    height: 45vh;/* for height*/
 }
 .teams .carousel .card:hover{/*2nd row of image*/
     background: red;
