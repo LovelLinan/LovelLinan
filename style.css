@@ -567,7 +567,8 @@ section .title::after{
     color: red;
 }
 .contact .contact-content .info .head{
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-weight: 1000;
 }
 .contact .contact-content .info .sub-title{
    /* color: #333;*/ color: white;
