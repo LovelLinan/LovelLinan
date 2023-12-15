@@ -357,6 +357,7 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    height: 50vh;/*for fixed height*/
 }
 .services .serv-content .card:hover{/*1rst 3 square*/
     background: /*#222*/ red;
