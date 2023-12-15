@@ -517,7 +517,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-   color: red; 
+    border: 5px solid red; 
 }
 .owl-dots{
     text-align: center;
