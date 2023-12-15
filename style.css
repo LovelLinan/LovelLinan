@@ -494,9 +494,11 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+       height: 10vh;/*for height*/
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
+   
 }
 .teams .carousel .card .text{
     font-size: 25px;
