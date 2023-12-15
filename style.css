@@ -346,7 +346,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    color: white;
+   /* color: white; */ color: black;
     content: "what i provide";
 }
 .services .serv-content .card{
