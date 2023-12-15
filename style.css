@@ -347,7 +347,7 @@ section .title::after{
 .teams .title::after{
     background: #111;
     color: white ;
-    content: "what i provide";
+    /*content: "what i provide";*/
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -384,7 +384,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+ /*   content: "what i know";*/
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -473,8 +473,8 @@ section .title::after{
 }
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
-     background: white;
+   /* content: "who with me";
+     background: white;*/
 }
 .teams .carousel .card{
    /*  background: white;*/
@@ -538,7 +538,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+ /*   content: "get in touch";*/
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
